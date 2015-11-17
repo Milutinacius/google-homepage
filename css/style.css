@@ -1,0 +1,144 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 13px;
+}
+
+#top-menu{
+	list-style-type: none;
+	width: 100%;
+	margin: 15px 0 0 0;
+    padding: 0;
+}
+#top-menu > li {
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+}
+
+.link-opacity{
+	opacity: 0.75;
+}
+.squares-opacity {
+	opacity: 0.55;
+}
+.squares:hover{
+	opacity: 0.75;
+}
+
+.clear{
+	clear: both;
+}
+
+a:link{
+	text-decoration: none;
+	color: #000;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:active{
+	text-decoration: underline;
+}
+
+#sign-in{
+	background-color: #4387fd;
+	color: #fff;
+	font-weight: bold;
+	border: 1px solid #4387fd;
+	outline: none;
+	padding: 5px 10px;
+	border-radius: 2px;
+}
+#sign-in:active{
+	-webkit-box-shadow:inset 1px 0 12px 3px #366DCC;
+	box-shadow:inset 1px 0 12px 3px #366DCC;
+	-moz-box-shadow:inset 1px 0 12px 3px #366DCC;
+}
+#sign-in:hover{
+	cursor: default;
+	text-decoration: none;
+}
+#central-parts{
+	/*to be updated*/
+	margin: 0 auto;
+    max-width: 550px;
+    min-height: 92px;
+    vertical-align: middle;
+    width: auto;
+}
+
+#search-box{
+	width: 100%;
+	height: 32px;
+    line-height: 32px;
+	opacity: 0.55;
+	margin: 30px auto 0;
+}
+#search-box:focus {
+	opacity: 1;
+}
+#center-image{
+	background:rgba(0, 0, 0, 0) url("../images/googlelogo_color_272x92dp.png") no-repeat scroll 0 0;
+	background-size: 272px 92px;
+	width: 272px;
+	height:92px;
+	margin: 0 auto;
+	margin-top: 160px;
+}
+.sub-under {
+	opacity: 0.45;
+	background: #E0E0E0;
+	font-weight: 800;
+	padding: 10px 10px;
+	/*border-style: none;*/
+	border: 1px solid transparent;
+	margin-top: 20px;
+	border-radius: 2px;
+}
+.sub-under:hover{
+	background-color: #f8f8f8;
+    background-image: -moz-linear-gradient(center top , #f8f8f8, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+	opacity: 1;
+}
+center > input:first-child {
+	margin-right: 5px;
+}
+#footer{
+	height: 40px;
+	width:100%;
+	background:#f0f0f0;
+	bottom:0;
+	position:absolute;
+}
+#footer-left, #footer-right {
+	list-style-type: none;
+	width: 49%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	line-height: 40px;
+}
+#footer-left > li, #footer-right > li {display: inline-block; padding: 0 15px;}
+#footer-right {
+	text-align: right;
+	margin-right: 1%;
+}
+#footer-left{
+	margin-left: 1%;
+}
